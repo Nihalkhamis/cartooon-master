@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/minion"
+            android:title="Minions" />
+
+
+        <item
+            android:id="@+id/buggs"
+            android:title="Buggs Bunny" />
+
+
+        <item
+            android:id="@+id/timon"
+            android:title="Timon and Pumbba" />
+
+
+        <item
+            android:id="@+id/pinky"
+            android:title="pinky and brain " />
+
+
+        <item
+            android:id="@+id/timmy"
+            android:title="timmy terner " />
+
+    </group>
+
+
+
+</menu>

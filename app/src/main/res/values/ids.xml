@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="minions" type="id">2</item>
+    <item name="buggs" type="id">2</item>
+    <item name="timon" type="id">2</item>
+    <item name="pinky" type="id">2</item>
+    <item name="timmy" type="id">2</item>
+    <item name="content_frame" type="id">1</item>
+</resources>
