@@ -81,19 +81,19 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.minion) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.content1 , new minions()).commit();
+            getSupportFragmentManager().beginTransaction().replace(R.id.content_frame , new minions()).commit();
 
         } else if (id == R.id.buggs) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.content1 , new bugsbunny()).commit();
+            getSupportFragmentManager().beginTransaction().replace(R.id.content_frame , new bugsbunny()).commit();
 
         } else if (id == R.id.timon) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.content1 , new timonandpumba ()).commit();
+            getSupportFragmentManager().beginTransaction().replace(R.id.content_frame , new timonandpumba ()).commit();
 
         } else if (id == R.id.pinky) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.content1 , new pinkyandbrain()).commit();
+            getSupportFragmentManager().beginTransaction().replace(R.id.content_frame , new pinkyandbrain()).commit();
 
         }else if (id == R.id.timmy) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.content1 , new timmyterner()).commit();
+            getSupportFragmentManager().beginTransaction().replace(R.id.content_frame , new timmyterner()).commit();
 
         }
 
